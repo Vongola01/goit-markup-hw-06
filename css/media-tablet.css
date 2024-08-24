@@ -1,0 +1,48 @@
+@media screen and (min-width: 768px){
+    .container{
+        max-width: 768px;
+    }
+
+    /* #region advantage */
+    .advantage-list {
+        display: flex;
+        gap: 24px;
+        flex-wrap: wrap;
+    }
+
+    .title-advantage{
+        text-align: start;
+    }
+
+    .advantage-text{
+        text-align: start;
+    }
+
+    .title-advantage-item{
+        width: calc((100% - 24px) / 2);
+    }
+     /* #endregion advantage */
+
+    /* #region team */
+
+        .list-team {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+        .team-style {
+            width: calc((100% - 24px) / 2);
+            margin-bottom: 64px;
+        }
+                @media (min-width: 768px) and (max-width: 1158px) {
+                    .container-team {
+                        max-width: 552px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        padding: 0;
+                    }
+        
+                }
+
+    /* #endregion team */
+}

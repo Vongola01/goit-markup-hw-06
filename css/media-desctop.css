@@ -1,0 +1,66 @@
+@media  screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        padding: 0 15px;
+    }
+    /* #region advantage */
+    .advantages{
+        padding-top: 120px; 
+        padding-bottom: 120px; 
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .advantage-list {
+        flex-wrap: nowrap;
+    }
+
+    .title-advantage{
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .advantage-text{
+        font-weight: 400px;
+    }
+
+    .title-advantage-item{
+        width: calc((100% - 24px * 3)/4);
+    }
+
+    .icon-advantege {
+        width: 264px;
+        height: 112px;
+        border: 1px solid #8e8f99;
+        border-radius: 4px;
+        background-color: #f4f4fd;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* #endregion advantage */
+
+    /* #region team */
+
+        .section-team {
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
+
+        .team-style {
+            width: calc((100% - 24px * 3)/4);
+        }
+
+        .list-team {
+            flex-wrap: nowrap;
+        }
+
+        .link-team:hover,
+        .link-team:focus {
+            background-color: #404bbf
+        }
+
+
+    /* #endregion team */
+}
