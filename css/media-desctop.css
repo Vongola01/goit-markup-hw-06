@@ -3,6 +3,62 @@
         max-width: 1158px;
         padding: 0 15px;
     }
+
+
+
+    /* #region header */
+
+    .header {
+        max-width: 1440px;
+    }
+
+    .head-logo {
+        margin-right: 76px;
+    }
+
+
+    .menu-address {
+        flex-direction: row;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .contact{
+        padding: 24px 0;
+        font-size: 16px;
+        line-height: 1.6;
+        letter-spacing: 0.02em;
+    }
+    /* #endregion header */
+
+
+    /* #region hero */
+
+        .hero-section {
+            max-width: 1440px;
+            padding-top: 188px;
+            padding-bottom: 188px;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                            rgba(46, 47, 66, 0.7)),
+                        url(../images/background/hero-bg-desktop.jpg);
+        }
+        @media screen and (-webkit-min-device-pixel-ratio: 2),
+                (min-resolution: 2dppx),
+                (min-resolution: 192dpi) {
+            .hero-section {
+                        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                rgba(46, 47, 66, 0.7)),
+                            url(../images/background/hero-bg-desktop-2x.jpg);
+            }
+        }
+
+        .title{
+            font-size: 56px;
+            margin-bottom: 48px;
+        }
+
+    /* #endregion hero */
+
     /* #region advantage */
     .advantages{
         padding-top: 120px; 

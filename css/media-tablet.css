@@ -3,6 +3,55 @@
         max-width: 768px;
     }
 
+    /* #region header */
+
+    .menu {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+        .head-logo {
+            margin-right: 120px;
+        }
+
+    .menu-address {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+        .open-mob-menu-btn {
+        display: none;
+        }
+
+    .mob-menu{
+        display: none;
+    }
+    /* #endregion header */
+
+    /* #region hero */
+
+    .hero-section{
+        max-width: 768px;
+        padding-top: 112px;
+        padding-bottom: 112px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/background/hero-bg-tablet.jpg);
+    }
+        @media screen and (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 2dppx),
+        (min-resolution: 192dpi) {
+            .hero-section {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                        rgba(46, 47, 66, 0.7)),
+                    url(../images/background/hero-bg-tablet-2x.jpg);
+            }
+        }
+
+    /* #endregion hero */
+
     /* #region advantage */
     .advantage-list {
         display: flex;
@@ -54,4 +103,22 @@
         }
 
     /* #endregion portfolio */
+
+    /* #region modal */
+
+    .modal-box{
+        width: 408px;
+        min-height: 584px;
+        padding: 72px 24px 24px 24px;
+    }
+
+        .modal-box-cont{
+            width: 360px;
+        }
+
+        .modal-textarea-cont{
+            width: 360px;
+        }
+
+    /* #endregion modal */
 }
