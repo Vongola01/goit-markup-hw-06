@@ -610,6 +610,8 @@ font-weight: 700;
     padding-bottom: 96px;
     margin-left: auto;
     margin-right: auto;
+
+
 }
 
 .span-foot{
@@ -620,9 +622,8 @@ font-weight: 700;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
-    /* max-width: 264px; */
+    max-width: 264px;
 
-    max-width: 288px;
 
 }
 .footer-logo{
@@ -635,12 +636,17 @@ font-weight: 700;
     align-items: baseline;
 
 
-    flex-direction: column;
+    flex-wrap: wrap;
     max-width: 320px;
+    gap: 72px;
 }
 
 .logo-box{
-    /* margin-right: 120px; */
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .title-social-footer{
@@ -685,13 +691,23 @@ font-weight: 700;
 }
 
 .social-link-footer{
-    /* margin-right: 80px; */
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .subscribe-foot {
-    /* margin-left: auto; */
-    /* display: flex; */
+    
+    display: flex;
     gap: 24px;
+    flex-direction: column;
+    justify-content: center;
+        align-items: center;
 }
 
 .subscribe-label{
@@ -705,7 +721,7 @@ font-weight: 700;
 }
 
 .subscribe-text {
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -741,9 +757,12 @@ font-weight: 700;
 
 .subscribe-box{
     display: flex;
-    gap: 24px;
+    
+    gap: 16px;
 
-
+display: flex;
+justify-content: center;
+align-items: center;
     flex-direction: column;
 }
 
@@ -751,7 +770,7 @@ font-weight: 700;
     background-color: #4d5ae5;
     border-radius: 4px;
     padding: 8px 24px;
-    min-width: 165px;
+    width: 165px;
     height: 40px;
     color: #fff;
     display: flex;

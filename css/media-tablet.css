@@ -104,6 +104,42 @@
 
     /* #endregion portfolio */
 
+    /* #region footer */
+
+        .footer-box {
+            display: flex;
+            align-items: baseline;
+    
+    
+            flex-wrap: wrap;
+            max-width: 768px;
+            gap: 72px 24px;
+        }
+
+        .logo-box{
+            justify-content: flex-start;
+            align-items: normal;
+        }
+        
+        .social-link-footer {
+            justify-content: flex-start;
+            align-items: normal;
+        }
+
+        .subscribe-foot {
+            justify-content: flex-start;
+            align-items: normal;
+        }
+
+        .subscribe-box {
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 24px;
+        }
+
+    /* #endregion footer */
+    
     /* #region modal */
 
     .modal-box{

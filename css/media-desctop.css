@@ -132,4 +132,45 @@
         }
         
     /* #endregion portfolio */
+
+    /* #region footer */
+
+        .footer {
+            padding-top: 100px;
+            padding-bottom: 100px;
+            max-width: 1440px;
+            }
+    
+        .footer-box {
+            display: flex;
+            align-items: baseline;
+    
+    
+            flex-wrap: nowrap;
+            max-width: 1158px;
+            gap: 0;
+        }
+    
+        .logo-box {
+            margin-right: 120px;
+        }
+    
+        .social-link-footer {
+            margin-right: 80px;
+            padding: 0;
+        }
+    
+        .subscribe-foot {
+            margin-left: auto;
+        }
+    
+        .subscribe-box {
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 24px;
+        }
+    
+        /* #endregion footer */
+
 }
