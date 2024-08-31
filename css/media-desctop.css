@@ -1,176 +1,172 @@
 @media (min-width: 1158px) {
-    .container {
-        max-width: 1158px;
-        padding: 0 15px;
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+
+  /* #region header */
+
+  .header {
+    max-width: 1440px;
+  }
+
+  .head-logo {
+    margin-right: 76px;
+  }
+
+  .menu-address {
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .contact {
+    padding: 24px 0;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+  }
+  /* #endregion header */
+
+  /* #region hero */
+
+  .hero-section {
+    max-width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/background/hero-bg-desktop.jpg);
+  }
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/background/hero-bg-desktop-2x.jpg);
     }
+  }
 
+  .title {
+    font-size: 56px;
+    margin-bottom: 48px;
+  }
 
+  /* #endregion hero */
 
-    /* #region header */
+  /* #region advantage */
+  .advantages {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 
-    .header {
-        max-width: 1440px;
-    }
+  .advantage-list {
+    flex-wrap: nowrap;
+  }
 
-    .head-logo {
-        margin-right: 76px;
-    }
+  .title-advantage {
+    font-weight: 500;
+    font-size: 20px;
+  }
 
+  .advantage-text {
+    font-weight: 400px;
+  }
 
-    .menu-address {
-        flex-direction: row;
-        gap: 40px;
-        align-items: center;
-    }
+  .title-advantage-item {
+    width: calc((100% - 24px * 3) / 4);
+  }
 
-    .contact{
-        padding: 24px 0;
-        font-size: 16px;
-        line-height: 1.6;
-        letter-spacing: 0.02em;
-    }
-    /* #endregion header */
+  .icon-advantege {
+    width: 264px;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* #endregion advantage */
 
+  /* #region team */
 
-    /* #region hero */
+  .section-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 
-        .hero-section {
-            max-width: 1440px;
-            padding-top: 188px;
-            padding-bottom: 188px;
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                            rgba(46, 47, 66, 0.7)),
-                        url(../images/background/hero-bg-desktop.jpg);
-        }
-        @media screen and (-webkit-min-device-pixel-ratio: 2),
-                (min-resolution: 2dppx),
-                (min-resolution: 192dpi) {
-            .hero-section {
-                        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                                rgba(46, 47, 66, 0.7)),
-                            url(../images/background/hero-bg-desktop-2x.jpg);
-            }
-        }
+  .team-style {
+    width: calc((100% - 24px * 3) / 4);
+  }
 
-        .title{
-            font-size: 56px;
-            margin-bottom: 48px;
-        }
+  .list-team {
+    flex-wrap: nowrap;
+  }
 
-    /* #endregion hero */
+  .link-team:hover,
+  .link-team:focus {
+    background-color: #404bbf;
+  }
 
-    /* #region advantage */
-    .advantages{
-        padding-top: 120px; 
-        padding-bottom: 120px; 
-        margin-left: 15px;
-        margin-right: 15px;
-    }
+  /* #endregion team */
 
-    .advantage-list {
-        flex-wrap: nowrap;
-    }
+  /* #region portfolio */
 
-    .title-advantage{
-        font-weight: 500;
-        font-size: 20px;
-    }
+  .portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 
-    .advantage-text{
-        font-weight: 400px;
-    }
+  .portfolio-item {
+    width: calc((100% - 24px * 2) / 3);
+  }
 
-    .title-advantage-item{
-        width: calc((100% - 24px * 3)/4);
-    }
+  /* #endregion portfolio */
 
-    .icon-advantege {
-        width: 264px;
-        height: 112px;
-        border: 1px solid #8e8f99;
-        border-radius: 4px;
-        background-color: #f4f4fd;
-        margin-bottom: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    /* #endregion advantage */
+  /* #region footer */
 
-    /* #region team */
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1440px;
+  }
 
-        .section-team {
-            padding-top: 120px;
-            padding-bottom: 120px;
-        }
+  .footer-box {
+    display: flex;
+    align-items: baseline;
 
-        .team-style {
-            width: calc((100% - 24px * 3)/4);
-        }
+    flex-wrap: nowrap;
+    max-width: 1158px;
+    gap: 0;
+  }
 
-        .list-team {
-            flex-wrap: nowrap;
-        }
+  .logo-box {
+    margin-right: 120px;
+  }
 
-        .link-team:hover,
-        .link-team:focus {
-            background-color: #404bbf
-        }
+  .social-link-footer {
+    margin-right: 80px;
+    padding: 0;
+  }
 
+  .subscribe-foot {
+    margin-left: auto;
+  }
 
-    /* #endregion team */
+  .subscribe-box {
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+  }
 
-    /* #region portfolio */
-        
-        .portfolio {
-            padding-top: 120px;
-            padding-bottom: 120px;
-        }
-
-        .portfolio-item {
-            width: calc((100% - 24px * 2)/3); 
-        }
-        
-    /* #endregion portfolio */
-
-    /* #region footer */
-
-        .footer {
-            padding-top: 100px;
-            padding-bottom: 100px;
-            max-width: 1440px;
-            }
-    
-        .footer-box {
-            display: flex;
-            align-items: baseline;
-    
-    
-            flex-wrap: nowrap;
-            max-width: 1158px;
-            gap: 0;
-        }
-    
-        .logo-box {
-            margin-right: 120px;
-        }
-    
-        .social-link-footer {
-            margin-right: 80px;
-            padding: 0;
-        }
-    
-        .subscribe-foot {
-            margin-left: auto;
-        }
-    
-        .subscribe-box {
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            gap: 24px;
-        }
-    
-        /* #endregion footer */
-
+  /* #endregion footer */
 }
